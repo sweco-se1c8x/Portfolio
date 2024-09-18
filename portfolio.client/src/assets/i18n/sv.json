@@ -1,0 +1,41 @@
+{
+    "welcome": "Välkommen till Ayham Darwish Portfolio",
+    "header_text": "Jag är en skicklig fullstack-utvecklare med en passion för att skapa vackra och funktionella webbapplikationer",
+    "languages":{
+        "en":"Engelska",
+        "sv":"Svenska"
+    },
+    "add_skill":"Lägg till färdigheter",
+    "project":"Visa alla projekt",
+    "about":"Om mig",
+    "contact":"kontakta mig",
+    "my_project":"Mina projekt",
+    "working_project":"Kolla in några av de projekt jag har arbetat med.",
+    "about_text":"Jag är en fullstack-utvecklare med en passion för att bygga skalbara och effektiva webbapplikationer. Med en bakgrund inom datavetenskap och flera års erfarenhet inom teknikindustrin har jag utvecklat en stark grund inom både frontend- och backend-teknologier.",
+    "skills":"Färdigheter",
+    "experience":"Erfarenhet",
+    "project_view": {
+        "customer_name": "Kund",
+        "project_name":"Projekt",
+        "project_date": "Datum",
+        "project_competency":"Kompetens",
+        "project_role":"Roll",
+        "Frontend_developer":"Frontend utvecklare"
+    },
+    "about_view": {
+        "experience_year":"3+ år som full-stack-utvecklare",
+        "degree":"Kandidatexamen ingenjör i datavetenskap",
+        "Sweco":"Jobbar som Mjukvaru utvecklare hos Sweco",
+        "epical":"var Anställd som mjukvaruutvecklare vid Epical.",
+        "devize":"Hade anställning som mjukvaruutvecklare på Devize.",
+        "skill_exist":"Färdigheter finns redan"
+    },
+    "contact_view":{
+        "contact_header":"Hör gärna av dig med eventuella frågor eller möjligheter.",
+        "name":"Namn",
+        "email":"E-post",
+        "message":"Meddelande",
+        "send_message":"Skicka"
+    }
+    
+}
