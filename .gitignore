@@ -1,2 +1,25 @@
-
+# Ignore Visual Studio files
 .vs/
+
+# Ignore assembly files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.log
+*.suo
+*.user
+*.cache
+*.csproj.user
+*.rsuser
+*.sln.docstates
+
+# Ignore build directories
+bin/
+obj/
+
+# Ignore other common files and directories
+node_modules/
+dist/
