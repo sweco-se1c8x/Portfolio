@@ -1,0 +1,25 @@
+services:
+  portfolio.server:
+    image: portfolio.server
+    build:
+      context: portfolio.Server
+      dockerfile: Dockerfile
+    networks:
+      - network-1
+    depends_on:
+      - portfolio.db
+  portfolio.client:
+    image: portfolio.client
+    build:
+      context: portfolio.client
+    networks:
+      - network-1
+    depends_on:
+      - portfolio.server
+  portfolio.db:
+    image:  mcr.microsoft.com/mssql/server
+    networks:
+      - network-1
+networks:
+  network-1:
+    driver: bridge

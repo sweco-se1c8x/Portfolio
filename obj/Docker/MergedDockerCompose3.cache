@@ -1,0 +1,56 @@
+name: dockercompose1790765772491304951
+services:
+  portfolio.client:
+    build:
+      context: C:\Users\se1c8x\project\Ayham-project\portfolio\client
+      dockerfile: Dockerfile
+    depends_on:
+      portfolio.server:
+        condition: service_started
+        required: true
+    image: portfolio.client
+    networks:
+      network-1: null
+  portfolio.db:
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      network-1: null
+  portfolio.server:
+    build:
+      context: C:\Users\se1c8x\project\Ayham-project\portfolio\server
+      dockerfile: Dockerfile
+    depends_on:
+      portfolio.db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: portfolio.server
+    networks:
+      network-1: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\se1c8x\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\se1c8x\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  network-1:
+    name: dockercompose1790765772491304951_network-1
+    driver: bridge
