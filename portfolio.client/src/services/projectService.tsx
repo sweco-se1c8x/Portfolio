@@ -16,7 +16,7 @@ const getAllProject = async () => {
       throw new Error("Something went wrong");
     }
   } catch (error) {
-    throw error;
+    //throw error;
   }
 };
 

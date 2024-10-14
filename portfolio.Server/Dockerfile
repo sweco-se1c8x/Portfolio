@@ -19,8 +19,8 @@ RUN apt-get -y install nodejs
 FROM with-node AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["portfolio.Server/portfolio.Server.csproj", "portfolio.Server/"]
 COPY ["portfolio.client/portfolio.client.esproj", "portfolio.client/"]
+COPY ["portfolio.Server/portfolio.Server.csproj", "portfolio.Server/"]
 RUN dotnet restore "./portfolio.Server/portfolio.Server.csproj"
 COPY . .
 WORKDIR "/src/portfolio.Server"

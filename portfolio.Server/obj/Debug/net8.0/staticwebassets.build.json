@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "5/x/1iSOpJjIBT1AF28YGsDXWpb7ks+LrSXB5fteRXA=",
+  "Hash": "UqZeUb5ibczCSnTNI9SN8gXrQ8fdDPTkqJxbMpL5Fmw=",
   "Source": "portfolio.Server",
   "BasePath": "_content/portfolio.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\portfolio.client.esproj",
+      "Identity": "c:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\portfolio.client.esproj",
       "Version": 2,
       "Source": "portfolio.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

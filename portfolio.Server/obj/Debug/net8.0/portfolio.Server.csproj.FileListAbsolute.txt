@@ -142,3 +142,8 @@ C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\obj\Debug\net8.
 C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\obj\Debug\net8.0\portfolio.Server.pdb
 C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\obj\Debug\net8.0\portfolio.Server.genruntimeconfig.cache
 C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\obj\Debug\net8.0\ref\portfolio.Server.dll
+C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\se1c8x\project\Ayham-project\portfolio\portfolio.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll

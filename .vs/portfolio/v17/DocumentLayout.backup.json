@@ -1,12 +1,117 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA033DF6-FBFD-4E57-8116-1F8F631B3A04}|docker-compose.dcproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AA033DF6-FBFD-4E57-8116-1F8F631B3A04}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\portfolio.server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|solutionrelative:portfolio.server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88019412-24FF-4BB8-B42D-64720F8F795B}|portfolio.client\\portfolio.client.esproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\portfolio.client\\src\\services\\skillservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|",
+      "RelativeMoniker": "D:0:0:{88019412-24FF-4BB8-B42D-64720F8F795B}|portfolio.client\\portfolio.client.esproj|solutionrelative:portfolio.client\\src\\services\\skillservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88019412-24FF-4BB8-B42D-64720F8F795B}|portfolio.client\\portfolio.client.esproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\portfolio.client\\src\\services\\projectservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|",
+      "RelativeMoniker": "D:0:0:{88019412-24FF-4BB8-B42D-64720F8F795B}|portfolio.client\\portfolio.client.esproj|solutionrelative:portfolio.client\\src\\services\\projectservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\portfolio.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|solutionrelative:portfolio.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|c:\\users\\se1c8x\\project\\ayham-project\\portfolio\\portfolio.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DEE004A-C937-4A00-9B2A-5377BD52DF7F}|portfolio.Server\\portfolio.Server.csproj|solutionrelative:portfolio.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-10-09T10:47:32.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\Dockerfile",
+              "RelativeDocumentMoniker": "portfolio.Server\\Dockerfile",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\Dockerfile",
+              "RelativeToolTip": "portfolio.Server\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-09T09:43:08.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "skillService.tsx",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\src\\services\\skillService.tsx",
+              "RelativeDocumentMoniker": "portfolio.client\\src\\services\\skillService.tsx",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\src\\services\\skillService.tsx",
+              "RelativeToolTip": "portfolio.client\\src\\services\\skillService.tsx",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-09T08:59:18.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "projectService.tsx",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\src\\services\\projectService.tsx",
+              "RelativeDocumentMoniker": "portfolio.client\\src\\services\\projectService.tsx",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.client\\src\\services\\projectService.tsx",
+              "RelativeToolTip": "portfolio.client\\src\\services\\projectService.tsx",
+              "ViewState": "AgIAAAIAAAAAAAAAAADgvxIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-09T08:54:28.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\Program.cs",
+              "RelativeDocumentMoniker": "portfolio.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\Program.cs",
+              "RelativeToolTip": "portfolio.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T07:25:19.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "portfolio.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\se1c8x\\project\\Ayham-project\\portfolio\\portfolio.Server\\appsettings.json",
+              "RelativeToolTip": "portfolio.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T07:16:50.362Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
